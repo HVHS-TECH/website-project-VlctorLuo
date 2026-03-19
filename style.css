@@ -2,24 +2,26 @@
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto;
-    background-color: #10172a;
+    background-image: linear-gradient(to right,#10172A, #192963);
+    align-items: center;
 }
 
 .navcontainer a {
     text-align: center;
     padding: 15px;
     color: #edf5fc;
-    display: flex;
-    align-items: center;
     text-decoration: none;
     border-radius: 8px;
     font-family: Inter, system-ui, sans-serif;
+    background-image: linear-gradient(to left, #1f398a, #394771);
+    border-style: solid;
+    border-color: #b8c5d6;
 }
 
 .logo img {
     object-fit: cover;
     width: 100%;
-}
+}   
 
 .logogroup {
     display: flex;
@@ -30,4 +32,19 @@
 .logotext {
     color: #edf5fc;
     font-family: Inter, system-ui, sans-serif;
+}
+
+/* ////////////////////////         NAVBAR
+//////////////////////////        
+/////////////////////////           MAIN*/
+
+.maincontainer {
+    display: grid;
+       grid-template-columns: 1fr, 1fr, 1fr;
+       gap: 0px;
+    }
+
+.maincontainer img {
+    width: 42%;
+    object-fit: cover;
 }
