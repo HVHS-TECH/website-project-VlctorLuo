@@ -79,10 +79,7 @@
 }
 
 .bodybox {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+
         padding: 20px;
     background-image: linear-gradient(to right, #131c3a, #162454);
     gap: 20px;
@@ -90,23 +87,29 @@
     z-index: 99;
     width: 150%;
     max-width: 150%;
+    padding-top: 6%;
 }
 
-.bodybox p {
+.bodybox h2 {
     color: white;
         font-family: Inter, system-ui, sans-serif;
         position: relative;
     font-weight: bold;
     font-size: 400%;
     margin: 0;
+    text-align: center;
+    align-items: center;
 
 }
 
-.bodybox h2 {
+.bodybox p {
         font-family: 'Courier New', Courier, monospace;
         color: #1d3d9e;
-        font-size: 200%;
+        font-size: 300%;
         margin: 0;
+        text-align: center;
+    align-items: center;
+    font-weight: bold;
 
 }
 
@@ -121,6 +124,26 @@
     overflow: visible;
     width: 100%;
 }
+
+.buttonrow {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    text-align: center;
+}
+
+.bodybox a {
+    text-decoration: none;
+    background-color: #1d3d9e;
+    color: white;
+    padding: 15px;
+}
+
+.evolutionsbutton, .mountsbutton {
+    margin-left: -25px;
+}
+
+
 /* ============================== BODYBOX ============================== */
 
 /* ============================== MAIN ============================== */
