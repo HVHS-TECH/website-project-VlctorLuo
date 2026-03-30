@@ -46,43 +46,76 @@
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
        gap: 0px;
+       position: relative;
+       overflow: visible;
     }
 
 .maincontainer img {
     width: 100%;
-    height: auto;
+    height: 100%;
+}
+.bodyboxcontainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    height: 100%;
+    width: 100%;
+}
+
+.backgroundimg2 {
+    position: absolute;
+    inset: 0;
+}
+
+.backgroundimg2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .bodybox {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    z-index: 2;
+    align-items: center;
     border-radius: 10px;
-    position:absolute;
-    transform: translate(-15%, -114%);
+    padding: 20px;
     background-image: linear-gradient(to bottom right, #10172A, #192963);
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto;
+    gap: 20px;
+    position: relative;
+    z-index: 99;
+    width: 150%;
+    max-width: 150%;
 }
 
 .bodybox p {
     color: white;
         font-family: Inter, system-ui, sans-serif;
-        font-size: 1000%;
         position: relative;
-        bottom: 180px;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-weight: bold;
-        grid-row-start: 1;
-        grid-column-start: 1;
+    font-weight: bold;
+    font-size: 400%;
+    margin: 0;
+
 }
 
 .bodybox h2 {
-    grid-row-start: 2;
-        transform: translate(0%, -1080%);
         font-family: 'Courier New', Courier, monospace;
         color: #1d3d9e;
         font-size: 200%;
+        margin: 0;
 
+}
+
+.imagerow {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.backgroundimg1, .backgroundimg3 {
+    overflow: visible;
+    width: 100%;
 }
