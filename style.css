@@ -161,5 +161,30 @@
         background-image: linear-gradient(to right,#10172A, #192963);
 height: 20px;
 }
+
+.maincontainer2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    background-color: green;
+}
+
+.about {
+    color: white;
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.aboutparagraph {
+    font-size: 80%;
+    width: 35%;
+    display: flex;
+    justify-content: end;
+    color: white;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
 /* ============================== MAIN ============================== */
 /* ============================== FOOTER ============================== */
