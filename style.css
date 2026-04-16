@@ -16,8 +16,8 @@
     color: #edf5fc;
     text-decoration: none;
     border-radius: 8px;
-    font-family: 'Courier New', Courier, monospace;
-    background-image: linear-gradient(to left, #1f398a, #1c347a);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+      background-image: linear-gradient(to left, #1f398a, #1c347a);
     border-style: solid;
     border-color: #b8c5d6;
     border-width: 3px;
@@ -41,7 +41,7 @@ a:hover {
 
 .logotext {
     color: #edf5fc;
-    font-family: Inter, system-ui, sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .margin {
     margin: 0;
@@ -99,10 +99,10 @@ a:hover {
     padding-top: 6%;
 }
 
-.bodybox h2 {
+.bodybox h1 {
     color: white;
-        font-family: Inter, system-ui, sans-serif;
-        position: relative;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+      position: relative;
     font-weight: bold;
     font-size: 400%;
     margin: 0;
@@ -112,8 +112,8 @@ a:hover {
 }
 
 .bodybox p {
-        font-family: 'Courier New', Courier, monospace;
-        color: #1d3d9e;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+          color: #1d3d9e;
         font-size: 300%;
         margin: 0;
         text-align: center;
@@ -162,6 +162,7 @@ a:hover {
 
 a:hover {
         color: #b8c5d6;
+        text-decoration: underline;
 }
 
 .evolutionsbutton, .mountsbutton {
@@ -183,8 +184,8 @@ height: 20px;
     color: white;
     text-align: center;
     grid-column-start: 2;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+      margin-top: 50px;
 }
 
 .aboutcontents h1 {
@@ -244,7 +245,48 @@ height: 15px;
    background-color: #1f398a;
    color: white;
    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 
 }
 /* ============================== FOOTER ============================== */
+/* ============================ EVOLUTIONS ============================ */
+body {
+background-image: linear-gradient(to right,#10172A, #192963);
+}
+.disclaimer {
+    color: white;
+}
+
+.grasselement {
+    color: greenyellow;
+    grid-row-start: 2;
+}
+
+
+
+.bigevogrid {
+    color: white;
+    grid-template-columns: auto auto;
+    display: grid;
+    background-color: black;
+}   
+
+.bulbasaurline {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      display: grid;
+      background-color: blue;
+}
+
+.evogrid img {
+width: 100px;    
+grid-row-start: 3;
+}
+
+.davinames {
+    grid-row-start: 4;
+    background-color: teal;
+    display: flex;
+    justify-content: space-around;
+}
