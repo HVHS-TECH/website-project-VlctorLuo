@@ -140,7 +140,7 @@ a:hover {
     grid-template-rows: auto auto;
     text-align: center;
     margin-top: -35px;
-    font-family: 'Courier New', Courier, monospace;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 
 }
 
@@ -252,41 +252,143 @@ height: 15px;
 /* ============================ EVOLUTIONS ============================ */
 body {
 background-image: linear-gradient(to right,#10172A, #192963);
-}
+} 
 .disclaimer {
-    color: white;
+    color: #94a3b8;
+font-family: 'Montserrat', sans-serif;
+text-decoration: underline dotted;
+text-align: center;
 }
-
+.bugelement {
+    color: #A6B91A;
+    margin-left: 0;  
+    margin-top: -30px;
+}
+.groundelement {
+    color: #E2BF65;
+    margin-left: 0;  
+    margin-top: -30px;
+}
+.dragonelement {
+    color: #6F35FC;
+    margin-left: 0;  
+    margin-top: -30px;
+}
+.psychicelement {
+    color: #F95587;
+    margin-left: 0;  
+    margin-top: -30px;
+}
+.fightingelement {
+    color: #C22E28;
+    margin-left: 0;  
+    margin-top: -30px;
+}
+.ghostelement {
+    color: #735797;
+    margin-left: 0;  
+    margin-top: -30px;
+}
+.electricelement {
+    color: #F7D02C;
+    margin-left: 0;  
+    margin-top: -30px;
+}
+.waterelement {
+    color: #6390F0;
+    margin-left: 0;  
+    margin-top: -30px;
+}
+.fireelement {
+    color: #EE8130;
+    margin-left: 0;  
+    margin-top: -30px;
+}
 .grasselement {
-    color: greenyellow;
-    grid-row-start: 2;
+    color: #7AC74C;
+    margin-left: 0;  
+    margin-top: -30px;
 }
-
-
+.evoheader {
+    margin-left: 0;
+}
 
 .bigevogrid {
     color: white;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     display: grid;
-    background-color: black;
+    gap: 50px;
 }   
 
-.bulbasaurline {
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      display: grid;
-      background-color: blue;
+.evogrid {
+    grid-column-start: 1;
+    justify-content: center;
+     background-color: #070f27;
+     border-radius: 20px;
+     border: solid;
+     border-color: #94a3b8;
+     width: fit-content;
 }
 
-.evogrid img {
-width: 100px;    
-grid-row-start: 3;
-}
-
-.davinames {
-    grid-row-start: 4;
-    background-color: teal;
+.evogrid2 {
+    grid-column-start: 2;
+    justify-content: center;
+     background-color: #070f27;
+     border-radius: 20px;
+     border: solid;
+     border-color: #94a3b8;
+     width: fit-content;
+    }
+.evoheaders {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+}
+.evoline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.sprites {
+display:flex;
+margin-top: 30px;
+gap: 30px;
+}
+.spritecolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;    
+
+}
+
+.spritecolumn p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.evolutionsheading {
+      color: white;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+      position: relative;
+    font-weight: bold;
+    font-size: 200%;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+}
+
+.evolutions_subtext {
+          color: #1d3d9e;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+      position: relative;
+    font-weight: bold;
+    font-size: 100%;
+    margin: 0;
+    text-align: center;
+    align-items: center;
 }
