@@ -214,6 +214,7 @@ html {
 	padding: 5px;
 	text-decoration: none;
 	transition: 0.2s ease-out;
+    z-index: 100;
 }
 
 .back-to-top span {
@@ -339,6 +340,26 @@ text-align: center;
      border-color: #94a3b8;
      width: fit-content;
     }
+
+.evogridlucario {
+    grid-column-start: 2;
+    justify-content: center;
+     background-color: #070f27;
+     border-radius: 20px;
+     border: solid;
+     border-color: #94a3b8;
+     width: fit-content;
+     padding-right: 100px;
+    }
+
+    .megaspritebox {
+    justify-content: center;
+     background-color: #070f27;
+     border-radius: 20px;
+     border: solid;
+     border-color: #94a3b8;
+    }
+
 .evoheaders {
     display: flex;
     flex-direction: column;
@@ -356,6 +377,29 @@ display:flex;
 margin-top: 30px;
 gap: 30px;
 }
+
+.megasprites {
+display:flex;
+margin-top: 30px;
+gap: 95px;
+}
+
+.megaspritecolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;    
+
+}
+
+.megaspritecolumn p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -15px;
+    color: white;
+}
+
 .spritecolumn {
     display: flex;
     flex-direction: column;
@@ -391,4 +435,9 @@ gap: 30px;
     margin: 0;
     text-align: center;
     align-items: center;
+}
+
+.dividerbar3 {
+        background-image: linear-gradient(to right,#10172A, #192963);
+height: 100px;
 }
