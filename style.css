@@ -441,3 +441,34 @@ gap: 95px;
         background-image: linear-gradient(to right,#10172A, #192963);
 height: 100px;
 }
+/* ============================ EVOLUTIONS ============================ */
+/* ============================ MOUNTS ============================ */
+.statsname, .mountgridsubtitle{
+    color: #888;
+}
+.statsnumber {
+    color: white;
+}
+
+.mountcardcontainer {
+    color: white;
+     background-color: #070f27;
+     border-radius: 20px;
+     border: solid;
+     border-color: #94a3b8;
+     width: fit-content;
+     padding: 10px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.statsgrid {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 40px;
+}
+
+.statsrow {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
