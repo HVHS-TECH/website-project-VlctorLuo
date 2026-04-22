@@ -448,6 +448,7 @@ height: 100px;
 }
 .statsnumber {
     color: white;
+    white-space: nowrap;
 }
 
 .mountcardcontainer {
@@ -472,3 +473,149 @@ height: 100px;
     justify-content: space-between;
     font-size: 15px;
 }
+
+.statsname {
+    min-width: 100px;
+}
+
+.landtitle {
+    color: #7AC74C;
+    font-weight: bold;
+}
+.airtitle {     
+    color: #a6e7ff;
+    font-weight: bold;
+}
+.watertitle {
+    color: #6390F0;
+    font-weight: bold;
+}
+.mountscontainer {
+    display: flex;
+    gap: 20px;
+}
+.mountscontainer2 {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+.mountpokenumber {
+   color: #888; 
+}
+/* ============================ MOUNTS ============================ */
+/* ============================ SPAWNS ============================ */
+.raritycommon {
+    color: #94a3b8; font-weight: bold;}
+.rarityuncommon {
+    color: #7AC74C; font-weight: bold;}
+.rarityrare {
+    color: #6390F0; font-weight: bold;}
+.rarityepic {
+    color: #9b72e8; font-weight: bold;}
+.raritylegendary {
+    color: #f59e0b; font-weight: bold;}
+.grasslands {
+    border: solid 1px #94a3b8;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.volcanic {
+    border: solid 1px #94a3b8;
+    border-radius: 15px;
+    overflow: hidden;
+    grid-column-start: 2;
+}
+.grasslandsheader {
+    display: flex;
+    padding: 20px;
+     border-color: #94a3b8;
+border-radius: 15px 15px 0px 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+            background-image: linear-gradient(to right,#9ec583, #56b256);
+}
+.volcanicheader {
+    display: flex;
+    padding: 20px;
+     border-color: #94a3b8;
+border-radius: 15px 15px 0px 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+            background-image: linear-gradient(to right,#c58383, #b25656);
+}
+.oceanheader {
+    display: flex;
+    padding: 20px;
+     border-color: #94a3b8;
+border-radius: 15px 15px 0px 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+            background-image: linear-gradient(to right,#8390c5, #5668b2);
+}
+.ruinsheader {
+    display: flex;
+    padding: 20px;
+     border-color: #94a3b8;
+border-radius: 15px 15px 0px 0px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+            background-image: linear-gradient(to right,#c5bf83, #b2af56);
+}
+.spawncardcontainer {
+    display: flex;
+    padding: 20px;
+    
+}
+.spawncardgrid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.spawncard {
+    background-color: #070f27;
+    border-radius: 15px;
+border: solid 1px;
+    border-color: #94a3b8;
+    padding: 30px;
+    min-width: 200px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.spawncardname {
+    color: white;
+    font-weight: bold;
+}
+.spawncardnumber {
+    color: #888;
+}
+
+.spawncardrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location, .rarity{
+    color: #888;
+}
+
+.location_name {
+color: white;
+font-weight: bold;
+}
+
+.spawnsgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+/* ============================ SPAWNS ============================ */
