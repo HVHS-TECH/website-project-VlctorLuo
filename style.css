@@ -16,8 +16,8 @@
     color: #edf5fc;
     text-decoration: none;
     border-radius: 8px;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-      background-image: linear-gradient(to left, #1f398a, #1c347a);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-image: linear-gradient(to left, #1f398a, #1c347a);
     border-style: solid;
     border-color: #b8c5d6;
     border-width: 3px;
@@ -41,7 +41,7 @@ a:hover {
 
 .logotext {
     color: #edf5fc;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .margin {
     margin: 0;
@@ -54,10 +54,10 @@ a:hover {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
-       gap: 0px;
-       position: relative;
-       overflow: visible;
-    }
+    gap: 0px;
+    position: relative;
+    overflow: visible;
+}
 
 .maincontainer img {
     width: 100%;
@@ -88,8 +88,7 @@ a:hover {
 }
 
 .bodybox {
-
-        padding: 20px;
+    padding: 20px;
     background-image: linear-gradient(to right, #131c3a, #162454);
     gap: 20px;
     position: relative;
@@ -101,8 +100,8 @@ a:hover {
 
 .bodybox h1 {
     color: white;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-      position: relative;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    position: relative;
     font-weight: bold;
     font-size: 400%;
     margin: 0;
@@ -113,10 +112,10 @@ a:hover {
 
 .bodybox p {
   font-family: 'Plus Jakarta Sans', sans-serif;
-          color: #1d3d9e;
-        font-size: 300%;
-        margin: 0;
-        text-align: center;
+    color: #1d3d9e;
+    font-size: 300%;
+    margin: 0;
+    text-align: center;
     align-items: center;
     font-weight: bold;
 
@@ -140,7 +139,7 @@ a:hover {
     grid-template-rows: auto auto;
     text-align: center;
     margin-top: -35px;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 
 }
 
@@ -161,8 +160,8 @@ a:hover {
 }
 
 a:hover {
-        color: #b8c5d6;
-        text-decoration: underline;
+    color: #b8c5d6;
+    text-decoration: underline;
 }
 
 .evolutionsbutton, .mountsbutton {
@@ -170,22 +169,22 @@ a:hover {
 }
 /* ============================== BODYBOX ============================== */
 .dividerbar {
-        background-image: linear-gradient(to right,#10172A, #192963);
-height: 20px;
+    background-image: linear-gradient(to right,#10172A, #192963);
+    height: 20px;
 }
 
 .maincontainer2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-        background-image: linear-gradient(to right,#10172A, #192963);
+    background-image: linear-gradient(to right,#10172A, #192963);
 }
 
 .aboutcontents {
     color: white;
     text-align: center;
     grid-column-start: 2;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-      margin-top: 50px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 50px;
 }
 
 .aboutcontents h1 {
@@ -234,8 +233,8 @@ html {
 /* ============================== FOOTER ============================== */
 
 .dividerbar2 {
-        background-image: linear-gradient(to right,#10172A, #192963);
-height: 15px;
+    background-image: linear-gradient(to right,#10172A, #192963);
+    height: 15px;
 }
 
 .footer {
@@ -252,13 +251,13 @@ height: 15px;
 /* ============================== FOOTER ============================== */
 /* ============================ EVOLUTIONS ============================ */
 body {
-background-image: linear-gradient(to right,#10172A, #192963);
+    background-image: linear-gradient(to right,#10172A, #192963);
 } 
 .disclaimer {
     color: #94a3b8;
-font-family: 'Montserrat', sans-serif;
-text-decoration: underline dotted;
-text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline dotted;
+    text-align: center;
 }
 .bugelement {
     color: #A6B91A;
@@ -324,40 +323,40 @@ text-align: center;
 .evogrid {
     grid-column-start: 1;
     justify-content: center;
-     background-color: #070f27;
-     border-radius: 20px;
-     border: solid;
-     border-color: #94a3b8;
-     width: fit-content;
+    background-color: #070f27;
+    border-radius: 20px;
+    border: solid;
+    border-color: #94a3b8;
+    width: fit-content;
 }
 
 .evogrid2 {
     grid-column-start: 2;
     justify-content: center;
-     background-color: #070f27;
-     border-radius: 20px;
-     border: solid;
-     border-color: #94a3b8;
-     width: fit-content;
+    background-color: #070f27;
+    border-radius: 20px;
+    border: solid;
+    border-color: #94a3b8;
+    width: fit-content;
     }
 
 .evogridlucario {
     grid-column-start: 2;
     justify-content: center;
-     background-color: #070f27;
-     border-radius: 20px;
-     border: solid;
-     border-color: #94a3b8;
-     width: fit-content;
-     padding-right: 100px;
+    background-color: #070f27;
+    border-radius: 20px;
+    border: solid;
+    border-color: #94a3b8;
+    width: fit-content;
+    padding-right: 100px;
     }
 
     .megaspritebox {
     justify-content: center;
-     background-color: #070f27;
-     border-radius: 20px;
-     border: solid;
-     border-color: #94a3b8;
+    background-color: #070f27;
+    border-radius: 20px;
+    border: solid;
+    border-color: #94a3b8;
     }
 
 .evoheaders {
@@ -369,19 +368,19 @@ text-align: center;
     flex-direction: row;
     align-items: center;
     padding: 20px;
-      font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .sprites {
-display:flex;
-margin-top: 30px;
-gap: 30px;
+    display:flex;
+    margin-top: 30px;
+    gap: 30px;
 }
 
 .megasprites {
-display:flex;
-margin-top: 30px;
-gap: 95px;
+    display:flex;
+    margin-top: 30px;
+    gap: 95px;
 }
 
 .megaspritecolumn {
@@ -416,9 +415,9 @@ gap: 95px;
 }
 
 .evolutionsheading {
-      color: white;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-      position: relative;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    position: relative;
     font-weight: bold;
     font-size: 200%;
     margin: 0;
@@ -427,9 +426,9 @@ gap: 95px;
 }
 
 .evolutions_subtext {
-          color: white;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-      position: relative;
+    color: white;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    position: relative;
     font-weight: bold;
     font-size: 100%;
     margin: 0;
@@ -453,13 +452,13 @@ height: 100px;
 
 .mountcardcontainer {
     color: white;
-     background-color: #070f27;
-     border-radius: 20px;
-     border: solid;
-     border-color: #94a3b8;
-     width: fit-content;
-     padding: 10px;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #070f27;
+    border-radius: 20px;
+    border: solid;
+    border-color: #94a3b8;
+    width: fit-content;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .statsgrid {
@@ -531,7 +530,7 @@ height: 100px;
     display: flex;
     padding: 20px;
      border-color: #94a3b8;
-border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: white;
     font-size: 150%;
@@ -542,29 +541,29 @@ border-radius: 15px 15px 0px 0px;
     display: flex;
     padding: 20px;
      border-color: #94a3b8;
-border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: white;
     font-size: 150%;
     font-weight: bold;
-            background-image: linear-gradient(to right,#c58383, #b25656);
+    background-image: linear-gradient(to right,#c58383, #b25656);
 }
 .oceanheader {
     display: flex;
     padding: 20px;
      border-color: #94a3b8;
-border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: white;
     font-size: 150%;
     font-weight: bold;
-            background-image: linear-gradient(to right,#8390c5, #5668b2);
+    background-image: linear-gradient(to right,#8390c5, #5668b2);
 }
 .ruinsheader {
     display: flex;
     padding: 20px;
      border-color: #94a3b8;
-border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 0px 0px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: white;
     font-size: 150%;
@@ -588,7 +587,7 @@ border: solid 1px;
     border-color: #94a3b8;
     padding: 30px;
     min-width: 200px;
-        font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .spawncardname {
@@ -609,8 +608,8 @@ border: solid 1px;
 }
 
 .location_name {
-color: white;
-font-weight: bold;
+    color: white;
+    font-weight: bold;
 }
 
 .spawnsgrid {
